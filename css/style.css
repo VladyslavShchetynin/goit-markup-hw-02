@@ -47,27 +47,27 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.header-contacts {
-}
 
 /* Contact section */
 .adress-contacts {
   font-style: normal;
 }
+.contacts-list {
+}
 .contacts-item {
-}
-.contacts-link:hover {
-  color: #404bbf;
-}
-.contacts-link:focus {
-  color: #404bbf;
 }
 .contacts-link {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+}
+.contacts-link:hover {
+  color: #404bbf;
+}
+.contacts-link:focus {
+  color: #404bbf;
 }
 
 /* Hero */
