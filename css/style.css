@@ -78,20 +78,33 @@ body {
   color: #fff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
+
 .hero-button {
   background: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
 }
 .hero-button-text {
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
-
+.hero-button:hover {
+  background-color: #404bbf;
+}
+.hero-button:focus {
+  background-color: #404bbf;
+}
 /* Features section */
 .features {
 }
@@ -145,12 +158,13 @@ body {
   background: #fff;
 }
 .team-titel {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-photo {
 }
@@ -174,9 +188,10 @@ body {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .portfolio-list {
 }
@@ -188,8 +203,9 @@ body {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.2em;
+  text-align: center;
 }
 .portfolio-text {
   color: #434455;
